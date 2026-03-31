@@ -48,7 +48,7 @@
       },
       "icon": "add_box",
       "active": true,
-      "src": "/dist/oscd-editor-sld.js"
+      "src": "./oscd-editor-sld.js"
     },
     {
       "name": "Communication Mapping",
@@ -98,20 +98,6 @@
       "active": true,
       "requireDoc": true,
       "src": "https://openenergytools.github.io/scl-editor/plugins/scl-substation-editor/scl-substation-editor.js"
-    },
-    {
-      "name": "Template Editor",
-      "icon": "copy_all",
-      "active": true,
-      "requireDoc": true,
-      "src": "https://openenergytools.github.io/scl-editor/plugins/scl-template/scl-template.js"
-    },
-    {
-      "name": "Template Generator",
-      "icon": "copy_all",
-      "active": true,
-      "requireDoc": true,
-      "src": "https://openenergytools.github.io/scl-editor/plugins/oscd-template-generator/oscd-template-generator.js"
     },
     {
       "name": "Start",
