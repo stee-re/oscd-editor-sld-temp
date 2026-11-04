@@ -991,7 +991,7 @@ export default class Designer extends LitElement {
               icon="copy_all"
               mini
               label="Add Template"
-              title="Add Template"
+              title="Import Bay Template (without IED)"
               @click=${(evt: Event) => {
                 const input = (evt.target as HTMLElement).querySelector(
                   ':scope > input'
@@ -1006,7 +1006,7 @@ export default class Designer extends LitElement {
               icon="developer_board"
               mini
               label="Add Vendor IED"
-              title="Add Vendor IED"
+              title="Import Bay Template"
               @click=${(evt: Event) => {
                 const input = (evt.target as HTMLElement).querySelector(
                   ':scope > input'
