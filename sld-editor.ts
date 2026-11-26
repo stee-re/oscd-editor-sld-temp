@@ -53,7 +53,6 @@ import {
   newStartResizeBREvent,
   newStartResizeTLEvent,
   Point,
-  prettyPrint,
   privType,
   removeNode,
   removeTerminal,
@@ -609,7 +608,7 @@ export class SLDEditor extends LitElement {
   saveSVG() {
     const sld = this.sld.cloneNode(true) as Element;
     cleanXML(sld);
-    const blob = new Blob([prettyPrint(sld)], {
+    const blob = new Blob([new XMLSerializer().serializeToString(sld)], {
       type: 'application/xml',
     });
 
